@@ -18,6 +18,7 @@
 
 ## Notas
 
-Utilizar una fuente externa para conectar +5V y GND de los equipos.
+Utilizar una fuente externa de 12v para en el jack del arduino.
 
-- Nota personal: utilicé un transformador de 5V en un protoboard, conectando ademas de todos los componentes, el Pin Vin del arduino, para recibir por ahi los 5V de encendido del controlador.
+- El pin de salida 5v de la placa, va conectada al protoboard, de allí se toma la alimentación del sensor y el servo. Sucede lo mismo con el GND de la placa, va al protoboard y de alli se conectan los dispositivos.
+-Se puede conectar el USB al arduino sin problemas.
