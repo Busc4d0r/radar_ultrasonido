@@ -40,7 +40,7 @@ void loop() {
   }
 }
 
-int calculateDistance(){
+int calcularDistancia(){
   digitalWrite(trigger, LOW);
   delayMicroseconds(2);
   digitalWrite(trigger, HIGH);
